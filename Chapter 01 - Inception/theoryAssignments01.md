@@ -3,7 +3,7 @@
 ## Chapter 01 - Inception
 
 ### Q1. What is Emmet?
-A. Emmet is a tool that helps developers/programmers to write code more efficiently. It's a plugin that comes by default with most popular text editors like Atom, Sublime Text and Visual Studio Code. It also comes pre-installed in playforms like codepen.
+A. Emmet is a tool that helps developers/programmers to write code more efficiently. It's a plugin that comes by default with most popular text editors like Atom, Sublime Text and Visual Studio Code. It also comes pre-installed in platforms like codepen.
 
 It allows the users to use shorthand abbreviations / shortcuts to create HTML, CSS and other languages. It can save alot of time as it automatically expands those shortcuts into full codes. Emmet also has alot of other features such as automatic numbering, dynamic tag & attribute name expansion and balance related actions. All of this makes it a popular choice among web developers , simplifying the process of writing and editing code.
 
