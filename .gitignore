@@ -23,7 +23,7 @@ node_modules/
 
 # Ignore build directories.
 /build
-/dist
+dist
 
 # ignore composer vendor directory
 /vendor
