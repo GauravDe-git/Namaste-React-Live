@@ -12,20 +12,20 @@ const HeaderComponent = () => {
 
   return (
     <>
-      <header>
+      <header className="flex justify-between bg-lime-200 shadow-lg">
         <a href="/">
-          <img src={logo} alt="hello?" className="logo" />
+          <img src={logo} alt="hello?" className="h-[7rem]" />
         </a>
         <nav>
-          <ul>
-            <li><Link to= "/"> Home </Link></li>
-            <li><Link to= "/about"> About </Link></li>
-            <li>Contact</li>
-            <li>Cart</li>
+          <ul className="flex py-10 px-2">
+            <li className="px-2"><Link to= "/"> Home </Link></li>
+            <li className="px-2"><Link to= "/about"> About </Link></li>
+            <li className="px-2">Contact</li>
+            <li className="px-2">Cart</li>
           </ul>
         </nav>
-        {isLoggedIn ? (<button onClick={()=> setIsLoggedIn(false)}> Login </button>) : 
-        (<button onClick={()=> setIsLoggedIn(true)}> Logout </button>) }
+        {isLoggedIn ? (<button className="hover:bg-green-500 p-2" onClick={()=> setIsLoggedIn(false)}> Login </button>) : 
+        (<button className="hover:bg-green-500 p-2" onClick={()=> setIsLoggedIn(true)}> Logout </button>) }
       </header>
     </>
   );
