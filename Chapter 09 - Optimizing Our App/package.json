@@ -1,0 +1,33 @@
+{
+  "name": "chapter-09---optimizing-our-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GauravDe-git/Namaste-React-Live.git"
+  },
+  "author": "Gaurav De",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GauravDe-git/Namaste-React-Live/issues"
+  },
+  "homepage": "https://github.com/GauravDe-git/Namaste-React-Live#readme",
+  "dependencies": {
+    "parcel": "^2.8.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "process": "^0.11.10"
+  }
+}

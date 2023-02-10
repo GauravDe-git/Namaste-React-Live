@@ -1,0 +1,39 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 0 1rem;
+}
+
+nav > ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.logo{
+    width: 5rem;
+}
+
+.card{
+    width: 200px;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid black;
+}
+
+.card > img{
+    width: 100%;
+}
+
+.cardArmy{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer{
+    margin: 1rem;
+    height: 200px;
+    width: 200px;
+    background-color: lightgrey;
+}
