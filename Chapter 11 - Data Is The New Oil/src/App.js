@@ -23,11 +23,11 @@ const root = ReactDOM.createRoot(rootNode);
 const AppLayout = () => {
   return (
     <>
-      
+      <UserContext.Provider value = {{name: "Gaurav De", email: "gm.gauravde@gmail.com"}}>
       <HeaderComponent />
       <Outlet />
       <FooterComponent />
-      
+      </UserContext.Provider>
     </>
   );
 };

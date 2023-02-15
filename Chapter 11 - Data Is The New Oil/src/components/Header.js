@@ -29,7 +29,7 @@ const HeaderComponent = () => {
             <li className="px-2"><Link to= "/instamart">Instamart</Link></li>
           </ul>
         </nav>
-        {user.name}
+        {user}
         {isLoggedIn ? (<button className="hover:bg-green-500 p-2" onClick={()=> setIsLoggedIn(false)}> Login </button>) : 
         (<button className="hover:bg-green-500 p-2" onClick={()=> setIsLoggedIn(true)}> Logout </button>) }
       </header>
