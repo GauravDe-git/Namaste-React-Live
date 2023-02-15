@@ -7,6 +7,8 @@ import About from "./components/About";
 import Error from "./components/Error";
 import RestaurantMenu from "./components/RestaurantMenu";
 import {createBrowserRouter, RouterProvider, Outlet} from "react-router-dom";
+import Instamart from "./components/Instamart";
+import UserContext from "./utils/UserContext";
 
 // * App Layout
 // * -Header - Logo, NavItems( right side), Cart
@@ -21,9 +23,11 @@ const root = ReactDOM.createRoot(rootNode);
 const AppLayout = () => {
   return (
     <>
+      
       <HeaderComponent />
       <Outlet />
       <FooterComponent />
+      
     </>
   );
 };
@@ -36,6 +40,10 @@ const appRouter = createBrowserRouter([
     children: [{
       path: "/about",
       element: <About/>
+    },
+    {
+      path: "/instamart",
+      element: <Instamart/>
     },
     {path: "/",
     element: <BodyComponent/>}]
